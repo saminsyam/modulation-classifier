@@ -165,7 +165,7 @@ Below this point the classifier operates at chance. Above it, accuracy rises sha
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/modulation-classifier.git
+git clone https://github.com/saminsyam/modulation-classifier.git
 cd modulation-classifier
 ```
 
@@ -189,15 +189,15 @@ Open `modulation_classifier.ipynb` in Google Colab or Jupyter and run all cells 
 
 ```
 modulation-classifier/
-├── modulation_classifier.ipynb   # main notebook
-├── README.md                     # this file
-├── per_snr_accuracy.png          # main result plot
-├── constellations.png            # IQ constellation EDA
-├── confusion_matrix_all.png      # confusion matrix — all SNRs
-├── confusion_matrix_0dB.png      # confusion matrix — 0 dB
-├── confusion_matrix_10dB.png     # confusion matrix — +10 dB
-├── confusion_matrix_-10dB.png    # confusion matrix — −10 dB
-└── feature_importances.png       # feature importance ranking
+├── ML_modulation_classifier.ipynb # main notebook
+├── README.md                      # this file
+├── per_snr_accuracy.png           # main result plot
+├── constellations.png             # IQ constellation EDA
+├── confusion_matrix_all.png       # confusion matrix — all SNRs
+├── confusion_matrix_0dB.png       # confusion matrix — 0 dB
+├── confusion_matrix_10dB.png      # confusion matrix — +10 dB
+├── confusion_matrix_-10dB.png     # confusion matrix — −10 dB
+└── feature_importances.png        # feature importance ranking
 ```
 
 ---
